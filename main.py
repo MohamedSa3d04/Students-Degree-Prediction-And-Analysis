@@ -351,7 +351,7 @@ elif mode == 'p':
 
 else:
     # Default welcome message and information for other pages
-    sb.markdown("Made with [Eng/Mohamed Saad](https://www.facebook.com/profile.php?id=61557483869983):heart_eyes:")
+    sb.markdown("Made with [Eng/Mohamed Saad](https://www.linkedin.com/in/ibnsa3d/):heart_eyes:")
     s = "Welcome To 'Predict Your GPA' Website!"
     st.markdown(f"<p style='margin : -38px 0px; font-size:50px; font-family :Encode Sans; color:red; '>{s}</p>", unsafe_allow_html=True)
     s = 'To start, choose the mode from the sidebar left!'
