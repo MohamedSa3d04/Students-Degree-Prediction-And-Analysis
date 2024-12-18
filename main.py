@@ -6,8 +6,6 @@ import warnings
 import seaborn as sns
 import plotly.express as px
 from moduleV2 import module
-warnings.filterwarnings("ignore")
-plt.style.use('ggplot')
 
 #Setup my Page
 st.set_page_config(
@@ -15,6 +13,10 @@ st.set_page_config(
     page_icon="🎓",  # Graduation cap emoji
     layout="wide",
 )
+warnings.filterwarnings("ignore")
+plt.style.use('ggplot')
+
+
 # Load the dataset of students' lifestyle
 students = pd.read_csv('./student_lifestyle_dataset.csv')
 
