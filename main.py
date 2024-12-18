@@ -21,7 +21,6 @@ plt.style.use('ggplot')
 students = pd.read_csv('./student_lifestyle_dataset.csv')
 
 # Set page configuration for Streamlit
-st.set_page_config(layout='wide')
 sb = st.sidebar
 
 # Select mode (either 'Analyzing Mode' or 'Predict My GPA')
